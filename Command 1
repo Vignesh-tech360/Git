@@ -10,3 +10,16 @@
              if [ -f ~/.git-completion.bash ]; then
              . ~/.git-completion.bash
       This command automatically initiate the completion script.
+========================================================================================================================================
+configuring user:
+ git config --global user.name "User name"
+ 
+ git config --global user.email "your email"
+ 
+ git config --global core.editor vi
+ 
+ git --config -list
+ 
+ ======================================================================================================================================
+ 
+ 
