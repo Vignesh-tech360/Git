@@ -1,0 +1,12 @@
+1) apt install git
+  This command to install the git tool in your system.
+  
+2) curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o .git-completion.bash
+   This command is to get the completion script from github.
+   
+3) vi .bash_profile
+   This command to open bash_profile in vi editor.
+   Type this:
+             if [ -f ~/.git-completion.bash ]; then
+             . ~/.git-completion.bash
+      This command automatically initiate the completion script.
