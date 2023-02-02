@@ -20,7 +20,7 @@ git diff --staged
 git diff --cached
     This command compare and shows(used to compare staged file and .git repository file) staged changes to commited changes.
     
-git filename -am "your message"
+git commit -am "your message"
     add & commit in single command.
     
 git add . --dry-run
