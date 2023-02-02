@@ -25,7 +25,7 @@ git filename -am "your message"
     
 git add . --dry-run
        (or)
-git add --all -dry-run
+git add --all --dry-run
         This command add and shows what goes to staging area.
         
 git add --update --dry-run
