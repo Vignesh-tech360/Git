@@ -1,0 +1,11 @@
+git clone "Github file link"
+   This command is used to download a repository from github.
+   
+git mv filename1 filename2
+    this command is used to change the filename.
+    
+git mv filename1 path/
+    This command is used to move file from one directory to another directory.
+    
+git rm filename1 
+    This command is used to delete a file.
