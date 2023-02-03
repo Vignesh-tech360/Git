@@ -1,0 +1,5 @@
+git restore filename
+    This command discard the changes in file in working directory.
+    
+git restore --staged filename
+    This command discard the changes in file in staged area
