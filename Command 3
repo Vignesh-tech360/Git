@@ -15,6 +15,7 @@ git revert 'commitID'
     
 git clean -f
     This command remove the untracked files from repository.
+==========================================================================================================================
     
 Setuping git to ignore the file:
     vi .gitignore
@@ -38,3 +39,13 @@ Setuping git to ignore the file:
    To ignore the globly we can do:
    git config --global core.execluesgfile ~/.gitignore
             give the exact location of .gitignore file
+=================================================================================================================================
+Untrack a tracked file.
+    modify the file.
+    git -rm --cached filename
+    git status
+        it say file is deleted but it is deleting only from git repro not from local repo
+    git commit -am "ignoring the filename from tracking"
+    
+    Now, add that file name in .gitignore 
+ ===============================================================================================================================
