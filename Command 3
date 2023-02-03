@@ -42,7 +42,7 @@ Setuping git to ignore the file:
 =================================================================================================================================
 Untrack a tracked file.
     modify the file.
-    git -rm --cached filename
+    git rm --cached filename
     git status
         it say file is deleted but it is deleting only from git repro not from local repo
     git commit -am "ignoring the filename from tracking"
