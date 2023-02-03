@@ -2,4 +2,10 @@ git restore filename
     This command discard the changes in file in working directory.
     
 git restore --staged filename
-    This command discard the changes in file in staged area
+    This command discard the changes in file in staged area.
+
+git show "commits hash value"
+    This command helps you to check any vesion of file.
+    
+git commit --amend -m "your message"
+    This command replace's the previous commit (ie it wont create new version instead it replaces this commit to previous commit ).
