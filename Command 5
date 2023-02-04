@@ -1,0 +1,17 @@
+git tags
+  This command list all the tags.
+  
+git tag -l *name
+  This command filter the tags.
+  
+git tag name
+  This command creates a light weighted tag.
+    
+git tag -a name
+  This command creates a annotated tag.
+  
+git tag -a tagname commitid
+  This command create tag and assign that for specified commitID.
+  
+git tag -d tagname
+  This command delete the tag.
