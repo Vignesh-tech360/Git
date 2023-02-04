@@ -46,3 +46,28 @@ git log --oneline commitid..head
   
 git log --oneline commitid..commitid
   This command filter the log between given two commitid( Note: It excludes the given commitid commit).
+
+Filtering using date:
+
+git log --oneline --after="2022-01-20"
+
+git log --oneline --before="2022-02-7"
+
+git log --oneline --after="2022-01-20" --before="2022-02-7"
+
+
+git log --oneline --since="2022-01-20"
+  This command work same as after.
+  
+Formating:
+  git log --oneline --formate="medium"
+    This is the default formating style
+  
+  git log --oneline --formate="short"
+    This command remove some unwanted data
+  
+  git log --oneline --formate="email"
+    This detailed data of who did that commit.
+    
+  ggit log --oneline --all --decorate --graph
+    This commad show log in more grapical manner.
