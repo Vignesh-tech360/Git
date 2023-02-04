@@ -31,3 +31,18 @@ git config --global alias.s status
     
  git log --oneline tagname
   This commad shows you the commits done till that specified tag.
+
+ git log --oneline filename
+  This commad shows you the commits done to that specified file.
+  
+git log --author="authorname"
+  This command shows the commit log done by specified author.
+  
+git log --oneline --grep="message"
+  You can also filter commits by the message.
+
+git log --oneline commitid..head
+  This command filter the log from given commitid to head ( Note: It excludes the given commitid commit).
+  
+git log --oneline commitid..commitid
+  This command filter the log between given two commitid( Note: It excludes the given commitid commit).
