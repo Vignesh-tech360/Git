@@ -26,7 +26,7 @@ git merge branchname
   Note: To merger with specific branch, first you should be on that branch(  ie if you want to merge eg_branch with master branch, first you should 
           checkout the master branch and then you should run this command).
           
-git log --onleline --all --decorate --graph
+git log --oneline --all --decorate --graph
   This command show's the log in a perfect grapical log manner.
   
 =========================================================================================================
