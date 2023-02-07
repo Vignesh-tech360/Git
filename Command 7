@@ -29,3 +29,12 @@ git grip -i banana commitid
     
 git grip -i banana head~21
   This command find the text and its file which consist of your given text, 21 is the no of commit from head, so it checks 21'st commit.
+
+git grip -i banana commitid commitid
+  This command find the text and its file which consist of your given text, from the two given commitid.
+  
+git grip -i banana branchname
+  This command find the text and its file which consist of your given text, In that particular branch .
+  
+git grip -p text
+  This command find the text,its file and wit more additional information, of your given text.
