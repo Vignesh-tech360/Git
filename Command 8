@@ -1,0 +1,3 @@
+git commit -amend
+  This command helps you to change the commit message of latest commit.
+  This command open's a editor where you change the commit message.
