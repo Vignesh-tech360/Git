@@ -1,3 +1,14 @@
 git commit -amend
   This command helps you to change the commit message of latest commit.
   This command open's a editor where you change the commit message.
+
+git rebase -i head~3
+  This command provides you several options to edit or modify a commit.
+    r (reword ie, edit commit messge).
+    e (edit a committed file, fo the follow the commands.but it meld only when it has previous commit).
+      vi filename (edit the file)
+      git commit --amend
+      git rebase --continue
+    s (squash , this merge multiple commits into one).
+    
+    
