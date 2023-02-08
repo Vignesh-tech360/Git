@@ -20,3 +20,9 @@ git reset --mixed HEAD~1
   
 git reset --soft HEAD~1
   This command reset the commit you mentioned and the commit changes will be moved to modified file state.
+
+git push
+  This command push your local repo to github repo.
+  
+git pull
+  This command pull's your github repo to local machine.
